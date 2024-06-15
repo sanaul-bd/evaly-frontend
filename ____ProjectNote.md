@@ -3,13 +3,12 @@
 
 
 Techonology:
-vite, 
-
+vite, redux
 
 
 1. install : npm create vite@latest & npm i . 
 2. install : npm install @reduxjs/toolkit & npm install react-redux
-3. 19.9 continue 
+3. install : npm install react-hot-toast : https://react-hot-toast.com/docs  // usign hot toast for alart 
 4. 
 5. 
 6. 
@@ -17,7 +16,10 @@ vite,
 8. 
 9. 
 10. 
-11. 
+
+
+<!-- Project Start -->
+11. we usign Daisy ui for component library navbar, footer, card , btn, input etc all. 
 12. 
 13. 
 14. 

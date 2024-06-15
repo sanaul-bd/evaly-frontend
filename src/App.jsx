@@ -1,13 +1,13 @@
+// import React from 'react';
 
-import './App.css'
+import Main from "./Components/Main/Main";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-    <h2>Wc Redux Project</h2>
-    </>
-  )
-}
+    <div className="p-6">
+      <Main />
+    </div>
+  );
+};
 
-export default App
+export default App;
