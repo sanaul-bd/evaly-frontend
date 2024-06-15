@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaGoogle } from 'react-icons/fa';
+
+import { FcGoogle } from 'react-icons/fc';
 import { MdOutlineEmail, MdPassword } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
@@ -24,11 +24,12 @@ const SignIn = () => {
                 <button className='mb-2 bg-black h-10 mt-3 rounded font-medium text-white w-full'>Sign in</button>
 
                 <div className='flex justify-center  items-center my-2 bg-slate-100 py-1 cursor-pointer'>
-                    <FaGoogle /> <span className='ms-2'>Login with Google</span>
+                    <FcGoogle />
+                    <span className='ms-2'>Login with Google</span>
                 </div>
                 {/*  */}
                 <div className='flex justify-center'>
-                <span className=''>Dont have an Account ? <Link className='underline-offset-2 underline' to={'/login'}>Sign up</Link> </span>
+                    <span className=''>Dont have an Account ? <Link className='underline-offset-2 underline' to={'/login'}>Sign up</Link> </span>
                 </div>
             </div>
         </div>
