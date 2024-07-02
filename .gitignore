@@ -12,8 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Ignore --project_note.md file
-____ProjectNote.md
+# Ignore --project_note.md file\
 .____ProjectNote.md
 
 
