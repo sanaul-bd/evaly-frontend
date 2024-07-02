@@ -14,6 +14,7 @@ dist-ssr
 
 # Ignore --project_note.md file
 ____ProjectNote.md
+.____ProjectNote.md
 
 
 # Editor directories and files
