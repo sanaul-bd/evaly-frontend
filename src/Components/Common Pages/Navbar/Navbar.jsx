@@ -4,6 +4,8 @@ import { CiShop, CiViewList } from 'react-icons/ci';
 import { FaCartArrowDown, FaUser } from 'react-icons/fa'
 import { TiHomeOutline } from 'react-icons/ti';
 import { Link } from 'react-router-dom';
+import Categoris from '../../Categoris/Categoris';
+import Shop from '../../Shop/Shop';
 
 function Navbar() {
     return (
@@ -25,13 +27,12 @@ function Navbar() {
                     <span className='flex items-center px-3 py-2 bg-slate-200 gap-x-1 cursor-pointer'><FaUser /><Link to={'/signin'}>Sign in</Link> </span>
                 </div>
             </div>
-            <hr />
+            <hr className='mt-2 mb-3' />
             <div className='flex gap-x-3 py-4'>
-                <Link className='flex  items-center text-2xl font-medium cursor-pointer hover:text-red-500' to={'/'}><TiHomeOutline className='text-red-500'/> Home</Link>
-                <Link className='flex  items-center text-2xl font-medium cursor-pointer hover:text-red-500' to={'#'}><CiShop className='text-red-500'/> Shop</Link>
-                <Link className='flex  items-center text-2xl font-medium cursor-pointer hover:text-red-500' to={'#'}><CiViewList className='text-red-500'/> Categories</Link>
-                {/* <Link className='flex  items-center text-2xl font-medium cursor-pointer hover:text-red-500' to={'#'}><CiViewList className='text-red-500'/> Order</Link>
-                <Link className='flex  items-center text-2xl font-medium cursor-pointer hover:text-red-500' to={'#'}><CiViewList className='text-red-500'/> Delevary Address</Link> */}
+                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4' to={'/'}><TiHomeOutline className='text-red-500 text-md me-1'/> Home</Link>
+                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4' to={'/shop'}><CiShop className='text-red-500 text-md me-1'/> Shop</Link>
+                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4' to={'/categoris'}><CiViewList className='text-red-500 text-md me-1'/> Categories</Link>
+                
             </div>
             {/* <hr /> */}
         </>

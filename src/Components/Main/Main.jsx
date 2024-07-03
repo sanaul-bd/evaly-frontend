@@ -6,6 +6,8 @@ import Footer from "../Footer/Footer.jsx";
 import HomePage from "../Home/HomePage.jsx";
 import LogIn from "../Common Pages/LogIn_SignIn/LogIn.jsx";
 import SignIn from "../Common Pages/LogIn_SignIn/SignIn.jsx";
+import Categoris from "../Categoris/Categoris.jsx";
+import Shop from "../Shop/Shop.jsx";
 
 const Main = () => {
 
@@ -16,6 +18,8 @@ const Main = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/login" element={<LogIn />} />
                 <Route path="/signin" element={<SignIn />} />
+                <Route path="/categoris" element={<Categoris />} />
+                <Route path="/shop" element={<Shop />} />
             </Routes>
             <Footer />
         </div>

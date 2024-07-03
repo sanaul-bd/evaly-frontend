@@ -80,8 +80,9 @@ const HomePage = () => {
 						</div>
 					</div>
 				</div>
+
 				{/*  */}
-				<div className="lg:w-1/5 w-full my-3">Timing Add</div>
+				<div className="lg:w-1/5 w-full my-3 ms-2">Timing Add</div>
 			</div>
 			<hr />
 			<HomeProducts />
