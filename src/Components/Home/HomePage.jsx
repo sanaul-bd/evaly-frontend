@@ -21,7 +21,7 @@ const HomePage = () => {
 
 	return (
 		<>
-			<div className="lg:flex lg:my-4 lg:h-96 w-full">
+			<div className="lg:flex lg:my-4 lg:h-[75vh] w-full">
 				<div className="carousel lg:w-4/5 my-3">
 					<div id="slide1" className="carousel-item relative w-full">
 						<img
@@ -84,9 +84,9 @@ const HomePage = () => {
 				{/*  */}
 				<div className="lg:w-1/5 w-full my-3 ms-2">Timing Add</div>
 			</div>
-			<hr />
+			<hr className="my-3"/>
 			<HomeProducts />
-			<hr />
+			<hr  className="my-3"/>
 			<HomeShops />
 		</>
 	);

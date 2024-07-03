@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
-            <hr />
+            <hr className='my-3'/>
             <footer className="footer bg-base-100 text-base-content p-1 mt-3">
                 <div className='w-full'>
                     <Link className='font-bold text-2xl' to={'/'}>Evaly</Link>

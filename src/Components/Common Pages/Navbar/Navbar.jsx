@@ -28,10 +28,10 @@ function Navbar() {
                 </div>
             </div>
             <hr className='mt-2 mb-3' />
-            <div className='flex gap-x-3 py-4'>
-                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4' to={'/'}><TiHomeOutline className='text-red-500 text-md me-1'/> Home</Link>
-                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4' to={'/shop'}><CiShop className='text-red-500 text-md me-1'/> Shop</Link>
-                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4' to={'/categoris'}><CiViewList className='text-red-500 text-md me-1'/> Categories</Link>
+            <div className='flex gap-x-5 py-4'>
+                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4 hover:text-blue-500' to={'/'}><TiHomeOutline className='hover: text-md me-1'/> Home</Link>
+                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4 hover:text-blue-500' to={'/shop'}><CiShop className='hover: text-md me-1'/> Shop</Link>
+                <Link className='flex  items-center text-1xl font-medium cursor-pointer hover:underline underline-offset-4 hover:text-blue-500' to={'/categoris'}><CiViewList className='hover: text-md me-1'/> Categories</Link>
                 
             </div>
             {/* <hr /> */}
